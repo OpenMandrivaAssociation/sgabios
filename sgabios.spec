@@ -1,6 +1,6 @@
 Name:           sgabios
 Version:        0
-Release:        %mkrel 0.svn.20110622
+Release:        0.svn.20110622
 Summary:        Open-source serial graphics BIOS option rom
 
 Group:          Emulators
@@ -41,6 +41,7 @@ characters for later collection after an operating system boots.
 %setup -q
 
 %build
+export CC=gcc
 mkdir -p bfd
 ln -s %{_bindir}/ld.bfd bfd/ld
 export PATH=$PWD/bfd:$PATH
