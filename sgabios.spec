@@ -5,7 +5,7 @@ Summary:        Open-source serial graphics BIOS option rom
 
 Group:          Emulators
 License:        ASL 2.0
-URL:            http://code.google.com/p/sgabios/
+URL:            https://code.google.com/p/sgabios/
 # Tarball created from SVN archive using the following commands:
 # svn export -r 8 http://sgabios.googlecode.com/svn/trunk sgabios-0
 # tar -czvf sgabios-0-svnr8.tar.gz sgabios-0
