@@ -19,6 +19,7 @@ Requires: %{name}-bin = %{version}-%{release}
 # Disable debuginfo because it is of no use to us.
 %global debug_package %{nil}
 
+BuildRequires:	make
 %description
 SGABIOS is designed to be inserted into a BIOS as an option rom to provide over
 a serial port the display and input capabilities normally handled by a VGA
